@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@drawable/olivia_small"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:srcCompat="@drawable/olivia_small" />
 
         <ImageView
             android:id="@+id/newImage"
@@ -29,9 +29,19 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@drawable/blank"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blank" />
+
     </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="558dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="                  Original                                                            Modified " />
 
     <LinearLayout
         android:orientation="horizontal"
