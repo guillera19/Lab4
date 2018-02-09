@@ -50,10 +50,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="10">
+        android:layout_weight="10"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/brightnessFilterButton"
@@ -71,11 +71,11 @@
             android:text="TextView" />
 
         <Button
-            android:text="Gray Filter"
+            android:id="@+id/grayFilterButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:id="@+id/grayFilterButton"
             android:layout_weight="3"
+            android:text="Gray Filter"
             android:textSize="18sp" />
 
         <Space
